@@ -38,7 +38,7 @@ export function Proyectos(){
       delay: 6000,}}>
 
  { array.map((proyect)=>(
-    <SwiperSlide>
+    <SwiperSlide key = {proyect.name}>
        <h2 className={stile.subtitle3}>{proyect.name}</h2>
       <SwiperCard proyect={proyect} />
     </SwiperSlide>

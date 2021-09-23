@@ -10,7 +10,7 @@ export function Title(){
   },[])
 
   spans.forEach((span, idx) => {
-    console.log("clickeo")
+   
     span.addEventListener('click', (e) => {
 
       e.target.classList.add('active');

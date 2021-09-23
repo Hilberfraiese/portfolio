@@ -13,10 +13,10 @@ export function Home(){
    <div className="contenedorH">
    <meta name = "viweport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/> 
        <Title/>
-       <img class= "gif" src={arrow}/>
+       <img className= "gif" src={arrow}/>
        <TextCard/>
        <TextContent/>   
-       <img class="img" src={skills}/>
+       <img className="img" src={skills}/>
        <Proyectos/>
        <Contact/>
   </div>

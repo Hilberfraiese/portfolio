@@ -9,9 +9,7 @@ const SwiperCard = ({ proyect }) => {
   useEffect(() => {
     setCurrentProyect(proyect);
   }, [proyect])
-  console.log(proyect)
-  console.log(currentProyect)
-
+  
   return (
     <div className="swiper-card-container">
       <div className="aaa">
