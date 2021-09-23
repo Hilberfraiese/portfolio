@@ -1,12 +1,10 @@
 .body{
-    background-image: url("../../background.png");
-    background-repeat: no-repeat;
     width:100vw;
     max-width: 100vw;
     min-height:38vw;
     height: 100%;
     background-size: 100%;
-    
+ 
   }
   
   .img{
@@ -25,7 +23,7 @@
 
   @media(max-width:414px){
     .contenedorH{
-      background-image: url("../../background.png"); 
+     
       background-repeat: no-repeat;
       width:100vw;
       max-width: 100vw;

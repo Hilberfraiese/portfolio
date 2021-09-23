@@ -1,3 +1,19 @@
 .App {
- background-image: "./backgound.png";
+ background-image: "./background.png";
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
+
+@media(max-width: 414px){
+    .App {
+        background-image: "./background.png";
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+       }
+	
+    
+  }

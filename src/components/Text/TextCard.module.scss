@@ -45,7 +45,7 @@ body {
   margin-right: 30%;
   margin-top: 5%;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 1000;
   letter-spacing: -2px;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ body {
   height: 25%;
   width: 35%;
   margin-left: -30%;
-  margin-top: 25%;
+  margin-top: 15%;
   margin-right: 20%;
 
 }
@@ -71,7 +71,7 @@ body {
   height: $clip-height;
   overflow: hidden;
   position: relative;
-  height: 70px;
+  height: 47px;
   // Change the perspective of each alternating line
   &:nth-child(odd) {
     transform: skew(60deg, -30deg) scaleY(.66667);

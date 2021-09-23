@@ -8,13 +8,6 @@ import dog from "./huellas.png"
 import otr from "./ort.png"
 import weather from "./weather.png"
 import React from "react";
-import SwiperCore, {
-   Navigation,
-   Pagination,
-   Mousewheel,
-   Keyboard,
-   Autoplay,
-} from "swiper/core";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 export function Proyectos(){
@@ -30,7 +23,7 @@ export function Proyectos(){
   <Swiper
       className="swiper"
       slidesPerView={1}
-      navigation={true}
+     
       spaceBetween={1}
       pagination={true}
       loop={true}
