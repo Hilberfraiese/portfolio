@@ -1,0 +1,23 @@
+   
+.swiper{
+    background-color: rgb(49, 43, 43);
+    margin-top: 40px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    width: 700px;
+    border: solid 2px;
+    border-color: black;
+    margin-left: 31%;
+}
+
+@media (max-width: 414px) {
+    .swiper{
+        background-color: rgb(49, 43, 43);
+        margin-top: 40px;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+        width: 90%;
+        border: solid 2px;
+        border-color: black;
+        margin-left: 7%;
+    }
+    }
+  
