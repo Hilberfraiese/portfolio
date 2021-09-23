@@ -23,7 +23,7 @@ export function Proyectos(){
   <Swiper
       className="swiper"
       slidesPerView={1}
-     
+      navigation={true}
       spaceBetween={1}
       pagination={true}
       loop={true}
